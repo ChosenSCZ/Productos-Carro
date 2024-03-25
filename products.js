@@ -5,7 +5,7 @@ const products = [
         "flavor": "Res",
         "description": "1Kg de delicioso Alimento BARF Guau! sabor Res",
         "price": 40,
-        "image": "assets/img/barf-guau-res.png"
+        "image": "/assets/img/barf-guau-res.png"
     },  
     {
         "id": 2,
@@ -13,7 +13,7 @@ const products = [
         "flavor": "Res",
         "description": "5Kg de delicioso Alimento BARF Guau! sabor Res",
         "price": 195,
-        "image": "assets/img/barf-guau-res.png"
+        "image": "/assets/img/barf-guau-res.png"
     },  
     {
         "id": 3,
