@@ -5,7 +5,7 @@ let app = document.getElementById('app');
 let temporaryContent = document.getElementById('temporaryContent');
 
 const loadTemplate = () => {
-    fetch('template.html')
+    fetch('/template.html')
     .then(response => response.text())
     .then(html => {
         app.innerHTML = html;
@@ -22,7 +22,7 @@ const initApp = () => {
     let info = products.filter((value) => value.id == idProduct)[0];
     //   let thisProduct = products.filter(value => value.id == idProduct)[0];
     if(!info){
-        window.location.href = "/";
+        window.location.href = "/index.html";
     }
  //   let idProduct = new URLSearchParams(window.location.search).get('id');
  //   let thisProduct = products.filter(value => value.id == idProduct)[0];

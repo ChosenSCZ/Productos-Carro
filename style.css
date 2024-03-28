@@ -169,15 +169,14 @@ body.activeTabCart .container{
 .detail{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: auto;
+    gap: 50px;
     text-align: left;
 }
 .detail .title{
-    margin: auto;
+    gap: 50px;
 }
 .detail .image img{
     width: 100%;
-    border-radius: 50%;
 }
 .detail .image{
     position: relative;
@@ -237,8 +236,8 @@ body.activeTabCart .container{
     color: #eee;
     display: inline-flex;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;**/
     box-shadow: 0 10px 20px #2F2F2F77;
 }
 .detail .buttons svg{
