@@ -47,7 +47,7 @@ const cart = () => {
             newITem.innerHTML =
             `
                 <div class="image">
-                    <img src="${info.image}" />
+                    <img src="${info.image}"/>
                 </div>
                 <div class="name">${info.name}</div>
                 <div class="totalPrice">Bs
