@@ -28,7 +28,7 @@ const initApp = () => {
         newProduct.innerHTML = 
         `
             <a href="detail.html?id=${product.id}">
-                <img src="${product.image}">
+                <img src="${product.image}"/>
             </a>    
             <h2>${product.name}</h2>
             <div class="price">Bs${product.price}</div>
